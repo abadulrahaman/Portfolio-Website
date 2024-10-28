@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* This is for head bold  */
+    /* font-family: 'Montserrat', sans-serif;
+    font-weight: 700; */
+
+    /* this is for paragraph */
+    /* font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase; */
+}
+
+.items_1 {
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    min-width: auto;
+    background-color: #585353;
+    min-height: 150vh;
+
+}
+
+.nav_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.nav_1 ul {
+    display: flex;
+
+}
+
+.nav_1 ul li {
+    padding: 10px;
+    margin: 20px 50px;
+    list-style: none;
+}
+
+.nav_1 ul li a {
+    color: rgb(51, 46, 46);
+    text-decoration: none;
+}
+
+.headtext_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    min-height: 100vh;
+    margin-top: 130px;
+}
+
+.hello {
+    font-size: 90px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.charles {
+    font-size: 100px;
+    color: white;
+    margin: 15px 0px;
+     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.resume {
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    color: rgb(80, 75, 75);
+}
+
+.featured {
+    padding: 5px;
+}
+
+.portfolio {
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.nav_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.nav_2 ul {
+    display: flex;
+}
+
+.nav_2 ul li {
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+}
+
+.nav_2 ul li a {
+    color: rgb(51, 46, 46);
+    text-decoration: none;
+}
+
+.nav_2 ul li a:hover {
+    color: rgb(235, 161, 34);
+}
+
+.items_2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.img_1 img {
+    height: 421px;
+    width: 420px;
+}
+
+.text_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.myresume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 75px;
+    font-size: 40px;
+}
+
+.My {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.Resume {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.items_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    padding: 70px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.education {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.experience {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.card {
+    background-color: #726f6f;
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 665px;
+}
+
+.date {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.masteral {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #f1c40f;
+}
+
+.Lead {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #f1c40f;
+}
+
+.text_2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+
+
+.institution {
+    font-size: 23px;
+    margin-top: 30px;
+    color: white;
+}
+
+.items_4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.img_2 {
+    margin-right: 120px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.cont_1 {
+    width: 82%;
+    height: 550px;
+}
+
+.about_me {
+    font-size: 48px;
+    color: rgb(40, 38, 38);
+    margin-bottom: 30px;
+}
+
+.About {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300
+}
+
+.Me {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.about_me_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300
+}
+
+.Seprated {
+    font-size: 25px;
+    line-height: 1.5;
+
+}
+
+.small_river {
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+button:hover {
+    background-color: #f7c402;
+    opacity: 0.9;
+}
+
+.btn_1 {
+    margin-right: 5px;
+    color: white;
+    background-color: rgb(137, 134, 134);
+}
+
+.btn_2 {
+    color: white;
+    background-color: rgb(137, 134, 134);
+}
+
+.client_testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+
+.Client {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300
+}
+
+.Testimonial {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.items_5 {
+    padding: 50px;
+    border: 2px solid green;
+}
+
+.cont_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.img_logo {
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin-right: 36px;
+}
+
+.img_logo img {
+    border-radius: 100%;
+}
+
+.mainbox {
+    display: flex;
+}
+
+.box {
+
+    background-color: #605d5d;
+    height: 400px;
+    width: 650px;
+    border: 2px solid red;
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    
+}
+
+.text3 {
+    margin-top: 30px;
+}
